@@ -44,7 +44,7 @@ export default function TransitionsModal({ text, setOpenModal, openModal }) {
         <Fade in={open}>
           <Box sx={style}>
             <Typography id="transition-modal-title" variant="h6" component="h2">
-              Warning!!!
+              Successfully!!!
             </Typography>
             <Typography id="transition-modal-description" sx={{ mt: 2 }}>
               {text
