@@ -46,6 +46,7 @@ const Login = () => {
             required
           />
           <Input
+            type="password"
             placeholder="Password"
             name="password"
             value={formData.password}
